@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9022222579758450554}
   - component: {fileID: 6395830334369262003}
   - component: {fileID: 3625088029000175675}
+  - component: {fileID: -8216198269972507885}
   m_Layer: 0
   m_Name: Estrada
   m_TagString: Untagged
@@ -83,3 +84,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8216198269972507885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4343060209783879904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe02c0acc4c794aa8b1fd330accd09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
