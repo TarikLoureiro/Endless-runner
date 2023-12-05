@@ -7,7 +7,7 @@ public class Estrada : MonoBehaviour
     public GameObject estrada;
 
 
-    private float velocidadecenario = 0.05f;
+    private float velocidadecenario = 0.0005f;
     // Start is called before the first frame update
     void Start()
     {
