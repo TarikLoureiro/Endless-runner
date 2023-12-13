@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Estrada : MonoBehaviour
 {
@@ -18,5 +19,9 @@ public class Estrada : MonoBehaviour
     void Update()
     {
         estrada.transform.Translate(0, 0, velocidadecenario * -1);
+        if(gameObject.transform.position.z<-4.473434f)
+        {
+            Destroy(gameObject);
+        }
     }
 }
