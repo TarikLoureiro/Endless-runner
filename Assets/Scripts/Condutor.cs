@@ -18,14 +18,14 @@ public class Condutor : MonoBehaviour
         {
             if(gameObject.transform.position.x < 0.34f)
             {
-                gameObject.transform.Translate(0.343f, 0, 0);
+                gameObject.transform.Translate(0.0343f, 0, 0);
             }  
         }
         if (Input.GetKey(KeyCode.LeftArrow) == true)
         {
             if(gameObject.transform.position.x > -0.325f)
             {
-                gameObject.transform.Translate(-0.325f, 0, 0);
+                gameObject.transform.Translate(-0.0325f, 0, 0);
             }  
         }
 
