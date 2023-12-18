@@ -10,7 +10,7 @@ public class Spawns : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       Instantiate(estrada, new Vector3(-0.0017561f, -0.0037286f, 5.585f), Quaternion.identity); 
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class Spawns : MonoBehaviour
         contadorTempoestrada += Time.deltaTime;
 
 
-        if(contadorTempoestrada	> 3)
+        if(contadorTempoestrada	> 4)
         {
             Instantiate(estrada, new Vector3(-0.0017561f, -0.0037286f, 5.585f), Quaternion.identity);
 
