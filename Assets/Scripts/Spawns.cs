@@ -19,7 +19,7 @@ public class Spawns : MonoBehaviour
         contadorTempoestrada += Time.deltaTime;
 
 
-        if(contadorTempoestrada	> 4)
+        if(contadorTempoestrada	> 3.5f)
         {
             Instantiate(estrada, new Vector3(-0.0017561f, -0.0037286f, 5.585f), Quaternion.identity);
 
@@ -28,4 +28,9 @@ public class Spawns : MonoBehaviour
         }
         
     }
+    iEnumerator spawnTile()
+    {
+      yield return new waitforseconds(1);      
+    }
+
 }
