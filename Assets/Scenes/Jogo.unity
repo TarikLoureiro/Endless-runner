@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 801754595}
   - component: {fileID: 801754594}
   - component: {fileID: 801754593}
+  - component: {fileID: 801754597}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -221,6 +222,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &801754597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801754592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25388e951f7c86a4e9107af5208d91cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1700780042
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2027816290}
-  - component: {fileID: 2027816289}
+  - component: {fileID: 2027816291}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -322,19 +335,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2027816289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027816288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b959f61e5075b814caeaccfc1b2b5eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  estrada: {fileID: 4343060209783879904, guid: cc756f2487cc7e64488020f3c06646d1, type: 3}
 --- !u!4 &2027816290
 Transform:
   m_ObjectHideFlags: 0
@@ -350,6 +350,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027816291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027816288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eae3eee0664662428c247e20397bbeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estrada: {fileID: 4343060209783879904, guid: cc756f2487cc7e64488020f3c06646d1, type: 3}
 --- !u!1 &2088501239
 GameObject:
   m_ObjectHideFlags: 0
