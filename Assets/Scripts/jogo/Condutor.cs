@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Condutor : MonoBehaviour
 {
-     private float limitePosicional = 0.343f;
+     
     // Start is called before the first frame update
     void Start()
     {

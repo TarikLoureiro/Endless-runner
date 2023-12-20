@@ -28,9 +28,6 @@ public class Spawns : MonoBehaviour
         }
         
     }
-    iEnumerator spawnTile()
-    {
-      yield return new waitforseconds(1);      
-    }
+   
 
 }

@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: b959f61e5075b814caeaccfc1b2b5eec
+guid: e432908a9a354b34d894f71e0d11be38
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - estrada: {fileID: 4343060209783879904, guid: cc756f2487cc7e64488020f3c06646d1, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
